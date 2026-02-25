@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package fiap.java.advanced.poo.exercises.excinco;
 
 /**
@@ -9,5 +5,17 @@ package fiap.java.advanced.poo.exercises.excinco;
  * @author labsfiap
  */
 public class Gerente {
+    public String nome;
+
+    public Gerente(String nome) {
+        this.nome = nome;
+    }
     
+    public void atualizar(Funcionario f, String cargo){
+        f.setCargo(cargo);
+    }
+    
+    public void atualizar(Funcionario f, double salario){
+        f.setSalario(salario);
+    }
 }
