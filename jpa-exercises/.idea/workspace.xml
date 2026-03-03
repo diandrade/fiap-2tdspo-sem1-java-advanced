@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3bd37352-1d7f-4e31-a6a7-1a22e965c460" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exdois/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exdois/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exdois/ContaInvestimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exdois/ContaPoupanca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exdois/Contas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exdois/SaldoInsuficienteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exdois/TipoConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exdois/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exdois/ContaCorrente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exdois/ContaInvestimento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exdois/ContaPoupanca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exdois/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exdois/SaldoInsuficienteException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exdois/TipoConta.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Exception" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3AR7DXFEIUU1A6LESWeYDpbH5ve" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Contas.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/diandrade/Documents/fiap-2tdspo-sem1-java-advanced/jpa-exercises/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Contas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exdois.Contas" />
+      <module name="jpa-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exdois.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Contas" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bd37352-1d7f-4e31-a6a7-1a22e965c460" name="Changes" comment="" />
+      <created>1772543410894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772543410894</updated>
+      <workItem from="1772543412836" duration="10308000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
