@@ -1,7 +1,3 @@
-Aqui está o conteúdo estruturado e pronto para ser copiado e colado diretamente no seu arquivo **README.md**.
-
------
-
 # Checkpoint 1 - Programação em Java Advanced & JPA
 
 ## 📋 Descrição do Projeto
