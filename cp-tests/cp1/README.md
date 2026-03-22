@@ -41,7 +41,7 @@ Para atender aos requisitos de customização, o banco de dados possui atributos
 O programa instancia os objetos e os persiste no banco de dados. O Hibernate gera automaticamente o script de criação da tabela e as instruções de inserção.
 
 **Antes (Banco Vazio):**
-![Banco de Dados Antes do Create](screenshots/Screenshot%20from%202026-03-22%2015-09-06.png)
+![Banco de Dados Antes do Create](../../screenshots/Screenshot%20from%202026-03-22%2015-09-06.png)
 
 **Execução e Script SQL:**
 ![Script SQL Cadastro](screenshots/Screenshot%20from%202026-03-22%2015-19-24.png)
