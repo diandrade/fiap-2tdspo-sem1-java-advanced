@@ -41,14 +41,14 @@ Para atender aos requisitos de customização, o banco de dados possui atributos
 O programa instancia os objetos e os persiste no banco de dados. O Hibernate gera automaticamente o script de criação da tabela e as instruções de inserção.
 
 **Antes (Banco Vazio):**
-<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-09-06.png" width="800">
+<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-09-06.png" width="600">
 
 **Execução e Script SQL:**
-<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-19-24.png" width="800">
-<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-20-20.png" width="800">
+<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-19-24.png" width="600">
+<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-20-20.png" width="600">
 
 **Depois (Banco Populado):**
-<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-21-23.png" width="800">
+<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-21-23.png" width="600">
 
 ---
 
@@ -56,7 +56,7 @@ O programa instancia os objetos e os persiste no banco de dados. O Hibernate ger
 Busca de dados utilizando o `findById`. O sistema utiliza **API Reflection** para ler a anotação `@Description` e exibir a regra de negócio da categoria no console.
 
 **Execução da Leitura:**
-<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-30-11.png" width="800">
+<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-30-11.png" width="600">
 
 ---
 
@@ -64,10 +64,10 @@ Busca de dados utilizando o `findById`. O sistema utiliza **API Reflection** par
 Modificação dos dados de um funcionário. O salário é recalculado automaticamente com base nas novas informações fornecidas e persistido no banco.
 
 **Execução da Atualização:**
-<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-31-44.png" width="800">
+<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-31-44.png" width="600">
 
 **Banco de Dados Após o Update:**
-<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-32-50.png" width="800">
+<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-32-50.png" width="600">
 
 ---
 
@@ -75,10 +75,10 @@ Modificação dos dados de um funcionário. O salário é recalculado automatica
 Exclusão dos registros para limpeza do ambiente de teste e conformidade com o ciclo de vida da aplicação.
 
 **Execução da Remoção:**
-<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-34-47.png" width="800">
+<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-34-47.png" width="600">
 
 **Depois (Banco Limpo):**
-<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-35-08.png" width="800">
+<img src="../../screenshots/Screenshot%20from%202026-03-22%2015-35-08.png" width="600">
 
 ---
 
