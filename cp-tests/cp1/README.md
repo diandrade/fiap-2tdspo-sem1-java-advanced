@@ -41,14 +41,14 @@ Para atender aos requisitos de customização, o banco de dados possui atributos
 O programa instancia os objetos e os persiste no banco de dados. O Hibernate gera automaticamente o script de criação da tabela e as instruções de inserção.
 
 **Antes (Banco Vazio):**
-![Banco de Dados Antes do Create](image_f57ba5.png)
+![Banco de Dados Antes do Create](screenshots/Screenshot%20from%202026-03-22%2015-09-06.png)
 
 **Execução e Script SQL:**
-![Script SQL Cadastro](image_f5e13f.png)
-![Console Informações Detalhadas](image_f5e46b.png)
+![Script SQL Cadastro](screenshots/Screenshot%20from%202026-03-22%2015-19-24.png)
+![Console Informações Detalhadas](screenshots/Screenshot%20from%202026-03-22%2015-20-20.png)
 
 **Depois (Banco Populado):**
-![Tabela Após o Create](image_f5e541.png)
+![Tabela Após o Create](screenshots/Screenshot%20from%202026-03-22%2015-21-23.png)
 
 ---
 
@@ -56,7 +56,7 @@ O programa instancia os objetos e os persiste no banco de dados. O Hibernate ger
 Busca de dados utilizando o `findById`. O sistema utiliza **API Reflection** para ler a anotação `@Description` e exibir a regra de negócio da categoria no console.
 
 **Execução da Leitura:**
-![Console Read e SQL](image_f649be.png)
+![Console Read e SQL](screenshots/Screenshot%20from%202026-03-22%2015-30-11.png)
 
 ---
 
@@ -64,10 +64,10 @@ Busca de dados utilizando o `findById`. O sistema utiliza **API Reflection** par
 Modificação dos dados de um funcionário. O salário é recalculado automaticamente com base nas novas informações fornecidas e persistido no banco.
 
 **Execução da Atualização:**
-![Script SQL Update](image_f64d82.png)
+![Script SQL Update](screenshots/Screenshot%20from%202026-03-22%2015-31-44.png)
 
 **Banco de Dados Após o Update:**
-![Tabela Após o Update](image_f64e21.png)
+![Tabela Após o Update](screenshots/Screenshot%20from%202026-03-22%2015-32-50.png)
 
 ---
 
@@ -75,10 +75,10 @@ Modificação dos dados de um funcionário. O salário é recalculado automatica
 Exclusão dos registros para limpeza do ambiente de teste e conformidade com o ciclo de vida da aplicação.
 
 **Execução da Remoção:**
-![Script SQL Delete](image_f65218.png)
+![Script SQL Delete](screenshots/Screenshot%20from%202026-03-22%2015-34-47.png)
 
 **Depois (Banco Limpo):**
-![Tabela Após o Delete](image_f654e4.png)
+![Tabela Após o Delete](screenshots/Screenshot%20from%202026-03-22%2015-35-08.png)
 
 ---
 
