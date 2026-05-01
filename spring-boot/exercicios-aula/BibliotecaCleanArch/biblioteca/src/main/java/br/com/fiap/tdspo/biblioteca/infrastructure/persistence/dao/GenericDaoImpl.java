@@ -4,7 +4,6 @@ import br.com.fiap.tdspo.biblioteca.domain.exception.CommitException;
 import br.com.fiap.tdspo.biblioteca.domain.exception.IdNaoEncontradoException;
 import java.lang.reflect.ParameterizedType;
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityTransaction;
 
 public abstract class GenericDaoImpl<T, K> implements GenericDao<T, K> {
     protected EntityManager em;
@@ -13,54 +12,21 @@ public abstract class GenericDaoImpl<T, K> implements GenericDao<T, K> {
     @SuppressWarnings("all")
     public GenericDaoImpl(EntityManager em) {
         this.em = em;
-        this.clazz = (Class<T>) ((ParameterizedType)
-                getClass().getGenericSuperclass()).getActualTypeArguments()[0];
+        this.clazz = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
     }
 
+    @Override
     public T salvar(T entidade) {
-        EntityTransaction transaction = em.getTransaction();
-        boolean wasActive = transaction.isActive();
-
-        if (!wasActive) {
-            transaction.begin();
-        }
-
-        try {
-            T result = em.merge(entidade);
-            if (!wasActive) {
-                transaction.commit();
-            }
-            return result;
-        } catch (Exception e) {
-            if (!wasActive && transaction.isActive()) {
-                transaction.rollback();
-            }
-            throw e;
-        }
+        return em.merge(entidade);
     }
 
+    @Override
     public void remover(K id) throws IdNaoEncontradoException {
         T entidade = buscar(id);
-        EntityTransaction transaction = em.getTransaction();
-        boolean wasActive = transaction.isActive();
-
-        if (!wasActive) {
-            transaction.begin();
-        }
-
-        try {
-            em.remove(entidade);
-            if (!wasActive) {
-                transaction.commit();
-            }
-        } catch (Exception e) {
-            if (!wasActive && transaction.isActive()) {
-                transaction.rollback();
-            }
-            throw e;
-        }
+        em.remove(entidade);
     }
 
+    @Override
     public T buscar(K id) throws IdNaoEncontradoException {
         T entidade = em.find(clazz, id);
         if (entidade == null) {
@@ -74,12 +40,17 @@ public abstract class GenericDaoImpl<T, K> implements GenericDao<T, K> {
             if (em.getTransaction().isActive()) {
                 em.getTransaction().commit();
             }
-        } catch(Exception e) {
-            e.printStackTrace();
+        } catch (Exception e) {
             if (em.getTransaction().isActive()) {
                 em.getTransaction().rollback();
             }
-            throw new CommitException();
+            throw new CommitException(e.getMessage());
+        }
+    }
+
+    public void beginTransaction() {
+        if (!em.getTransaction().isActive()) {
+            em.getTransaction().begin();
         }
     }
 }

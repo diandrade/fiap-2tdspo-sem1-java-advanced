@@ -7,7 +7,7 @@ import com.fiap.tdspo.toys.domain.exception.IdNaoEncontradoException;
 import java.util.List;
 
 public interface BrinquedoGateway {
-    Brinquedo salvar(Brinquedo brinquedo) throws CommitException; // Já faz INSERT e UPDATE.
+    Brinquedo salvar(Brinquedo brinquedo) throws CommitException;
     Brinquedo buscarPorId(Integer id) throws IdNaoEncontradoException;
     List<Brinquedo> listarTodas();
     void deletar(Integer id) throws IdNaoEncontradoException, CommitException;

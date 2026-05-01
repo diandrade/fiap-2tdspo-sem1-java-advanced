@@ -17,7 +17,7 @@ public class EnderecoJpaEntity {
     @Column(name = "nr_cep", nullable = false, length = 9)
     private String cep;
 
-    @OneToOne(mappedBy = "endereco")
+    @OneToOne(mappedBy = "endereco", cascade = CascadeType.ALL)
     private BibliotecaJpaEntity biblioteca;
 
     public EnderecoJpaEntity() {}

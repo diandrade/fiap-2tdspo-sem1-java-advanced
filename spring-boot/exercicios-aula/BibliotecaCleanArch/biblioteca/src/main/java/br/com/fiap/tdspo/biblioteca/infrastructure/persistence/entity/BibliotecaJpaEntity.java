@@ -21,7 +21,7 @@ public class BibliotecaJpaEntity {
     @Column(name = "dt_abertura")
     private Calendar dataAbertura;
 
-    @OneToOne(cascade = {CascadeType.MERGE, CascadeType.REMOVE}, fetch = FetchType.EAGER)
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "cd_endereco", nullable = false)
     private EnderecoJpaEntity endereco;
 
