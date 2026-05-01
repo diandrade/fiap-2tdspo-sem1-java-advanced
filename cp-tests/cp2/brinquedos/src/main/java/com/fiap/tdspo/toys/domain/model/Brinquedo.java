@@ -1,4 +1,4 @@
-package com.fiap.tdspo.toys.model;
+package com.fiap.tdspo.toys.domain.model;
 
 import jakarta.persistence.*;
 

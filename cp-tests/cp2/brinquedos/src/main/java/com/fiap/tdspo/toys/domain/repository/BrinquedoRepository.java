@@ -1,6 +1,6 @@
-package com.fiap.tdspo.toys.repository;
+package com.fiap.tdspo.toys.domain.repository;
 
-import com.fiap.tdspo.toys.model.Brinquedo;
+import com.fiap.tdspo.toys.domain.model.Brinquedo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
