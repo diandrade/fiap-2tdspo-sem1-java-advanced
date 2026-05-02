@@ -103,11 +103,11 @@ spring.jpa.show-sql=true
 **JSON Enviado:**
 ```json
 {
-    "nome": "Carrinho Hot Wheels Turbo",
-    "tipo": "Veículo",
-    "classificacao": "5+",
-    "tamanho": 15.5,
-    "preco": 49.99
+    "nome": "LEGO City Polícia - Helicóptero",
+    "tipo": "Montagem",
+    "classificacao": "8+",
+    "tamanho": 28.0,
+    "preco": 249.99
 }
 ```
 
@@ -115,11 +115,11 @@ spring.jpa.show-sql=true
 ```json
 {
     "id": 1,
-    "nome": "Carrinho Hot Wheels Turbo",
-    "tipo": "Veículo",
-    "classificacao": "5+",
-    "tamanho": 15.5,
-    "preco": 49.99
+    "nome": "LEGO City Polícia - Helicóptero",
+    "tipo": "Montagem",
+    "classificacao": "8+",
+    "tamanho": 28.0,
+    "preco": 249.99
 }
 ```
 
