@@ -90,15 +90,15 @@ spring.jpa.show-sql=true
 
 **Estrutura do Projeto:**
 
-<img src="../../screenshots/estrutura_projeto.png" width="600">
+<img src="../../../screenshots/estrutura_projeto.png" width="600">
 
 **Criação da Tabela pelo JPA (Console):**
 
-<img src="../../screenshots/jpa_create_table.png" width="600">
+<img src="../../../screenshots/jpa_create_table.png" width="600">
 
 **Requisição POST - Insomnia:**
 
-<img src="../../screenshots/post_insomnia.png" width="600">
+<img src="../../../screenshots/post_insomnia.png" width="600">
 
 **JSON Enviado:**
 ```json
@@ -133,7 +133,7 @@ spring.jpa.show-sql=true
 
 **Requisição GET All - Insomnia:**
 
-<img src="../../screenshots/get_all_insomnia.png" width="600">
+<img src="../../../screenshots/get_all_insomnia.png" width="600">
 
 **Resposta da API:**
 ```json
@@ -159,7 +159,7 @@ spring.jpa.show-sql=true
 
 **Requisição GET by ID - Insomnia:**
 
-<img src="../../screenshots/get_id_insomnia.png" width="600">
+<img src="../../../screenshots/get_id_insomnia.png" width="600">
 
 **Resposta da API:**
 ```json
@@ -179,7 +179,7 @@ spring.jpa.show-sql=true
 
 **Requisição PUT - Insomnia:**
 
-<img src="../../screenshots/put_insomnia.png" width="600">
+<img src="../../../screenshots/put_insomnia.png" width="600">
 
 **JSON Enviado:**
 ```json
@@ -206,7 +206,7 @@ spring.jpa.show-sql=true
 
 **Registro Atualizado no SQL Developer:**
 
-<img src="../../screenshots/pos_put_banco.png" width="600">
+<img src="../../../screenshots/pos_put_banco.png" width="600">
 
 ---
 
@@ -214,11 +214,11 @@ spring.jpa.show-sql=true
 
 **Requisição DELETE - Insomnia:**
 
-<img src="../../screenshots/delete_insomnia.png" width="600">
+<img src="../../../screenshots/delete_insomnia.png" width="600">
 
 **Registro Removido no SQL Developer:**
 
-<img src="../../screenshots/pos_delete_banco.png" width="600">
+<img src="../../../screenshots/pos_delete_banco.png" width="600">
 
 ---
 
@@ -270,11 +270,6 @@ spring.jpa.show-sql=true
 * **Diego Andrade** - RM566385
 * **Grazielle de Alencar** - RM561529
 * **Julia Corrêa** - RM564870
-
----
-
-## 🔗 Links Importantes
-- **GitHub:** [https://github.com/seu-usuario/checkpoint2-brinquedos](https://github.com/seu-usuario/checkpoint2-brinquedos)
 
 ---
 
