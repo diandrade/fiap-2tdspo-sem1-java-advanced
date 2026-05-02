@@ -107,7 +107,7 @@ spring.jpa.show-sql=true
     "tipo": "Montagem",
     "classificacao": "8+",
     "tamanho": 28.0,
-    "preco": 249.99
+    "preco": 199.99
 }
 ```
 
@@ -119,7 +119,7 @@ spring.jpa.show-sql=true
     "tipo": "Montagem",
     "classificacao": "8+",
     "tamanho": 28.0,
-    "preco": 249.99
+    "preco": 199.99
 }
 ```
 
