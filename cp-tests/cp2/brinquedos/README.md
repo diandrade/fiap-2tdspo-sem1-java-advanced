@@ -11,6 +11,26 @@ Este projeto consiste em uma API REST para gerenciamento de brinquedos utilizand
 
 ---
 
+## 🚀 **Configuração do Spring Initializr**
+
+<img src="../../../screenshots/spring_initializr.png" width="600">
+
+**Dependências selecionadas:**
+- Spring Web
+- Spring Data JPA
+- Oracle Driver
+- Validation
+
+**Configurações do Projeto:**
+- **Project:** Maven
+- **Language:** Java
+- **Spring Boot:** 3.4.2
+- **Group:** com.fiap.tdspo
+- **Artifact:** toys
+- **Java:** 17
+
+---
+
 ## 📚 **Explicações Técnicas**
 
 **Spring Data JPA vs EntityManager:** O Spring Data JPA reduz código repetitivo ao fornecer interfaces prontas como `JpaRepository`, eliminando a necessidade de escrever consultas manuais, gerenciar transações e tratar exceções com o EntityManager. Para CRUDs simples, é mais produtivo e menos propenso a erros.
