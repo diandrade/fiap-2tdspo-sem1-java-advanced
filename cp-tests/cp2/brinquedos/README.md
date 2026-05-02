@@ -125,7 +125,7 @@ spring.jpa.show-sql=true
 
 **Registro Inserido no SQL Developer:**
 
-<img src="../../screenshots/pos_post_banco.png" width="600">
+<img src="../../../screenshots/pos_post_banco.png" width="600">
 
 ---
 
